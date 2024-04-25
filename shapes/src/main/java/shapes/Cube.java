@@ -10,7 +10,7 @@ public class Cube extends Shape3D{
     }
 
     private Cube(Rectangle base){
-        calculateVolume();
+     base= base.calculateArea();
     }
 
     @Override
