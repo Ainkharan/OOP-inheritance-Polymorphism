@@ -6,17 +6,20 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+        // Shape
         List<Shape> shapes = List.of(
                 new Circle(5),
                 new Rectangle(2, 5),
                 new Triangle(3, 7)
         );
-
         for(Shape shape : shapes) {
             System.out.println(shape.getClass().getSimpleName() + " area = " + shape.calculateArea());
         }
-// Shape 3D
+
+    // Shape 3D
         List<Shape3D> shapes3d = new ArrayList<>(List.of(new Cube(5)));
+
 
         for (Shape shape : shapes) {
 

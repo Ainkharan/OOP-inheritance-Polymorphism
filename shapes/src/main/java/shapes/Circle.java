@@ -2,16 +2,16 @@ package shapes;
 
 public class Circle extends Shape{
 
-    public int radious;
+    public int radius;
 
-    public Circle(int radious) {
-        this.radious = radious;
+    public Circle(int radius) {
+        this.radius = radius;
     }
 
     @Override
     public double calculateArea(){
 
-        return (3.1415926535897932* radious*radious);
+        return (3.1415926535897932* radius * radius);
 
     }
 

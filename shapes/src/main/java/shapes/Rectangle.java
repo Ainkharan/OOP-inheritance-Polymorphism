@@ -1,6 +1,6 @@
 package shapes;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
     int length;
     int width;
@@ -13,6 +13,5 @@ public class Rectangle extends Shape{
     @Override
     public double calculateArea(){
         return length * width;
-
     }
 }

@@ -3,9 +3,9 @@ package shapes;
 public class Cylinder extends Shape3D {
     double height;
 
-    public Cylinder(double height,Circle base) {
+    public Cylinder(Circle base,double height) {
         this.height = height;
-        //this.base=base;
+        this.base=base;
     }
 
     @Override
