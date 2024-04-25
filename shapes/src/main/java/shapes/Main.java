@@ -2,15 +2,13 @@ package shapes;
 import java.util.ArrayList;
 import java.util.List;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
         // Shape
         List<Shape> shapes = List.of(
                 new Circle(5),
-                new Rectangle(2, 5),
+                new Rectangle(2,5),
                 new Triangle(3, 7)
         );
         for(Shape shape : shapes) {
@@ -38,7 +36,7 @@ public class Main {
 
         for (Shape3D shape3d : shapes3d) {
             System.out.println(shape3d.getClass().getSimpleName() + " with " +
-                    shape3d.getBase().getClass().getSimpleName() + " base | Volume = " +
+                    /*shape3d.getBase().getClass().getSimpleName() +*/ " base | Volume = " +
                     shape3d.calculateVolume());
         }
 

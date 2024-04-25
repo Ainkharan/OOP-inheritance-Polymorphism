@@ -3,14 +3,14 @@ package shapes;
 public class Sphere extends Shape3D {
 
     public Sphere(Circle base){
-        //this.base = base;
+        this.base = base;
         ///double hh = base.calculateArea();
     }
 
     @Override
     double calculateVolume() {
-     //  double base.calculateArea();
+     //  π x the cubed radius of the base shape, all multiplied by (4 ÷ 3)
 
-        return 0;
+        return ((base.calculateArea()*((Circle)(this.base)).radius)*4)/3; //(base.calculateArea()*this.base.r *4/3);
     }
 }

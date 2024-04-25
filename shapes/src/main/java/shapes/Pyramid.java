@@ -10,6 +10,6 @@ public class Pyramid extends Shape3D {
 
     @Override
     double calculateVolume() {
-        return 0;
+        return (base.calculateArea()*height)/3;
     }
 }

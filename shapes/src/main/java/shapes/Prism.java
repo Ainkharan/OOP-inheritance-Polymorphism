@@ -10,6 +10,6 @@ public class Prism extends Shape3D {
 
     @Override
     double calculateVolume() {
-        return 0;//(Double)base * height;
+        return base.calculateArea()*height;//(Double)base * height;
     }
 }

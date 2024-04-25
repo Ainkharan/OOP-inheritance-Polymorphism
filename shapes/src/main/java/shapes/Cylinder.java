@@ -10,7 +10,9 @@ public class Cylinder extends Shape3D {
 
     @Override
     double calculateVolume() {
-        return 0;
+
+
+        return  base.calculateArea()*height;
     }
 
     //The Cylinder and Cone classes' constructors should take two parameters: base of type Circle and height
